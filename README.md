@@ -1,4 +1,4 @@
-# Jenkins X GKE Module
+# Xformation Terraform GKE Module
 
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.12.0-blue.svg)
 
