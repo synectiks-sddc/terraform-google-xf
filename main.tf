@@ -254,11 +254,11 @@ module "dns" {
 //
 // ----------------------------------------------------------------------------
 
-module "jx-boot" {
-  source        = "./modules/jx-boot"
-  depends_on    = [module.cluster]
-  install_vault = ! var.gsm ? true : false
-}
+# module "jx-boot" {
+#   source        = "./modules/jx-boot"
+#   depends_on    = [module.cluster]
+#   install_vault = ! var.gsm ? true : false
+# }
 
 // ----------------------------------------------------------------------------
 // Let's generate jx-requirements.yml
